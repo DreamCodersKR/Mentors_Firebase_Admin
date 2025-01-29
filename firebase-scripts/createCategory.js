@@ -15,76 +15,25 @@ const firestore = admin.firestore();
 const addCategories = async () => {
   const categories = [
     {
-      cate_name: "IT/전문기술",
-      what_for: "main",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-    {
-      cate_name: "예술",
-      what_for: "main",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-    {
-      cate_name: "학업/교육",
-      what_for: "main",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-    {
-      cate_name: "마케팅",
-      what_for: "main",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-
-    {
-      cate_name: "자기개발",
+      cate_name: "멘토링후기",
       what_for: "board",
       createdDt: admin.firestore.FieldValue.serverTimestamp(),
       isDeleted: false,
     },
     {
-      cate_name: "취업&커리어",
-      what_for: "main",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-    {
-      cate_name: "금융/경제",
+      cate_name: "팁과 노하우",
       what_for: "board",
       createdDt: admin.firestore.FieldValue.serverTimestamp(),
       isDeleted: false,
     },
     {
-      cate_name: "기타",
-      what_for: "board",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-
-    // 추가 카테고리 데이터
-    {
-      cate_name: "스터디구함",
+      cate_name: "고민상담",
       what_for: "board",
       createdDt: admin.firestore.FieldValue.serverTimestamp(),
       isDeleted: false,
     },
     {
-      cate_name: "공모전팀구함",
-      what_for: "board",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-    {
-      cate_name: "일상공유",
-      what_for: "board",
-      createdDt: admin.firestore.FieldValue.serverTimestamp(),
-      isDeleted: false,
-    },
-    {
-      cate_name: "헛소리",
+      cate_name: "자격증&시험정보",
       what_for: "board",
       createdDt: admin.firestore.FieldValue.serverTimestamp(),
       isDeleted: false,
